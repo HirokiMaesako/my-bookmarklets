@@ -23,7 +23,7 @@ javascript:(
         };
 
         let inputString = getSelectedText();
-        let outputString = convertToMarkdownTable(input_string);
-        navigator.clipboard.writeText(output_string);
+        let outputString = convertToMarkdownTable(inputString);
+        navigator.clipboard.writeText(outputString);
     }
 )();
