@@ -22,8 +22,8 @@ javascript:(
             return `${headerRow}${separatorRow}${bodyRows}`;
         };
 
-        let input_string = getSelectedText();
-        let output_string = convertToMarkdownTable(input_string);
+        let inputString = getSelectedText();
+        let outputString = convertToMarkdownTable(input_string);
         navigator.clipboard.writeText(output_string);
     }
 )();
