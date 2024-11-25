@@ -1,2 +1,1 @@
-# my-bookmarklets
-bookmarkletを置いておくところ
+# 色々おくところ
